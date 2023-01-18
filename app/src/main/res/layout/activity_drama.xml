@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".drama">
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="140dp"
+        android:text="MOVIES"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="145dp"
+        android:src="@drawable/rebbeca"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="170dp"
+        android:text="Rebecca (2020)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="158dp"
+        android:text="It may seem sacrilegious to remake an Alfred Hitchcockclassic (particularly one that took home Best Picture), but Ben Wheatley’s adaptation of the beloved Daphne du Maurier novel certainly takes the tormented romance in a different direction. While Hitchcock’s version was hauntingly restrained, Wheatley captures perpetual anxiety within an exaggerated melodrama."
+        android:textColor="@color/purple_700"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/emily"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <TextView
+        android:layout_width="215dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="180dp"
+        android:text="Emily the Criminal (2022)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:layout_width="261dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="156dp"
+        android:text="Written and directed by John Patton Ford, Emily the Criminalstars the usually dry-witted Aubrey Plaza (The White Lotus) in a spectacularly unexpected role. Plaza plays Emily, the down-on-her-luck titular character who, desperate for work, finds herself involved in a dangerous scam that lures her deeper into the criminal underworld."
+        android:textColor="@color/purple_700"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/good"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <TextView
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="186dp"
+        android:text="The Good Nurse (2022)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <TextView
+        android:layout_width="274dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="142dp"
+        android:text="Directed by Tobias Lindholm (Mindhunter), The Good Nurse places a couple of Oscar winners in a tense circumstance. Jessica Chastain(The Eyes of Tammy Faye) co-stars as an ICU nurse who becomes wary when her colleague (Eddie Redmayne) is suspected of causing the untimely deaths of patients in the hospital where they work. With a script from Krysty Wilson-Cairns, The Good Nurse is based on true events, unraveling drama with high stakes for these two medical professionals."
+        android:textColor="@color/purple_700"
+        android:textSize="11dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="137dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="136dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="GO BACK"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

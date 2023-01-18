@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".horror">
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="140dp"
+        android:text="MOVIES"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="145dp"
+        android:src="@drawable/allien"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="170dp"
+        android:text="Alien (1979)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="158dp"
+        android:text="Ridley Scott’s sexually-charged gothic horror in space is a perfect sci-fi movie. And a perfect horror movie. And hell, I’ll say it, just a perfect movie. Scott takes the baseline narrative following the crew of the Nostromo, an ill-fated space expedition, as they come across the galaxy’s deadliest predator, the H. R. Giger designed Xenomorph, and infuses it with hyper-violent manifestations of imagery that invoke sexual violation, the biological perils of gestation and birth, all manner of sexual anxiety."
+        android:textColor="@color/purple_700"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/babadook"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <TextView
+        android:layout_width="215dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="180dp"
+        android:text="The Babadook (2014)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:layout_width="261dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="156dp"
+        android:text="The Babadookis already a horror classic. The Babadook boasts one of the most memorable villains in recent history with a striking look, chilling bellow and his own catchy nursery rhyme to boot. But what makes The Babadook exceptional is that it isn’t just some evil entity that needs to be vanquished. It’s a villain that haunts and torments with purpose, exploring how victims deal with their own inner demons."
+        android:textColor="@color/purple_700"
+        android:textSize="10dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/bay"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <TextView
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="186dp"
+        android:text="Bay of Blood (1971)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <TextView
+        android:layout_width="274dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="142dp"
+        android:text="One of the finest and most formative directors of the Giallo subgenre, Mario Bava had been turning out first-rate horror thrillers for a decade when he helmed Bay of Blood (alternately titled Twitch of the Death Nerve and Last House on the Left Part II, among many others). Because this world is light on justice, it is perhaps best known now as the film that heavily inspired the inferior Friday the 13th and the emergence of the slasher subgenere at large."
+        android:textColor="@color/purple_700"
+        android:textSize="11dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="137dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="136dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="GO BACK"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".documentary"
+    android:background="@color/purple_200">
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="140dp"
+        android:text="MOVIES"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="145dp"
+        android:src="@drawable/tinder"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="170dp"
+        android:text="The Tinder Swindler (2022)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="158dp"
+        android:text="We've all seen guys on Tinder that are maybe a little too good to be true. Pictures of a jet-setting lifestyle, expensive watches and suits, a perfectly manicured life. But for some, it's about the potential to find their ideal man and where some might swipe left, others will eagerly swipe right to give it a chance. Such is the beginning of Simon Leviev's con"
+        android:textColor="@color/purple_700"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/sr"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <TextView
+        android:layout_width="215dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="180dp"
+        android:text="Sr. (2022)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:layout_width="261dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="156dp"
+        android:text="r. is an honest and personal homage to the late filmmaker and father of one of Hollywood’s biggest stars, Robert Downey Sr. Produced by his son Robert Downey Jr. (Avengers: Endgame), with the assistance of director Chris Smith, Sr. explores the unencumbered career of the progressive director."
+        android:textColor="@color/purple_700"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/changes"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <TextView
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="186dp"
+        android:text="This Changes Everything (2018)"
+        android:textColor="@color/purple_700"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <TextView
+        android:layout_width="274dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="142dp"
+        android:text="Sexism in Hollywood is an unfortunately relevant topic, and This Changes Everything – a documentary that was created in association with the Geena Davis Institute on Gender and Media, an organization recently highlighted at the 2022 Emmys – dives into it"
+        android:textColor="@color/purple_700"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="137dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="136dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="GO BACK"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

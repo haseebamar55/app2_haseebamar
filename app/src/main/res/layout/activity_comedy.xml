@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".comedy">
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="140dp"
+        android:text="MOVIES"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="145dp"
+        android:src="@drawable/catherine"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="170dp"
+        android:text="Catherine Called Birdy (2022)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="160dp"
+        android:text="Based on the novel of the same name, Lena Dunham’s adaptation of Catherine Called Birdy is a charming coming-of-age comedy ideal for any adolescent girl. Catherine Called Birdy sees Game of Thrones breakout star Bella Ramsey as the titular character, a young woman in Medieval England whose father, played by Fleabag’s Andrew Scott, attempts to deal with his growing debts by marrying her off to the highest bidder."
+        android:textColor="@color/purple_700"
+        android:textSize="11dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.127" />
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/emergency"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <TextView
+        android:layout_width="215dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="180dp"
+        android:text="Emergency (2022)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:layout_width="261dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="156dp"
+        android:text="Carey Williams directs Emergency, a critically acclaimed film that satirically approaches the delicate subject matter of race relations through a uniquely blended tense yet comedic prism blooming from expected tropes like the classic college party or road trip movie."
+        android:textColor="@color/purple_700"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/captian"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <TextView
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="184dp"
+        android:text="Captain Fantastic (2016)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.467" />
+
+    <TextView
+        android:layout_width="274dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="142dp"
+        android:text="Written and directed by Matt Ross, Captain Fantastic is a touching story about Ben, a father (Viggo Mortensen) who raises his children in an isolated wilderness distanced from the modern world in hopes of making them better people. Sparring with Mortensen on screen is legendary actor Frank Langella (The Trial of the Chicago 7) as Ben’s father-in-law, grandfather to the children being educated away from civilization."
+        android:textColor="@color/purple_700"
+        android:textSize="11dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="137dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="136dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="GO BACK"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

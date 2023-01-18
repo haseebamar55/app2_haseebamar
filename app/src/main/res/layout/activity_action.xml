@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".action">
+
+    <TextView
+        android:layout_width="384dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="140dp"
+        android:text="MOVIES"
+        android:textColor="@color/purple_700"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.018" />
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="145dp"
+        android:src="@drawable/leon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <TextView
+        android:layout_width="231dp"
+        android:layout_height="37dp"
+        android:layout_marginStart="170dp"
+        android:text="Léon: The Professional’ (1994)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.071" />
+
+    <TextView
+        android:layout_width="255dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="158dp"
+        android:text="Director Luc Besson’s Léon: The Professional is centered on the unique relationship that forms between a professional “cleaner” (hitman) and a 12-year-old girl, Mathilda. After her parents are murdered by a corrupt DEA agent, Mathilda relies on Léon for survival and, eventually, training to become a talented enough assassin who can seek revenge."
+        android:textColor="@color/purple_700"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.126" />
+
+    <ImageView
+        android:layout_width="152dp"
+        android:layout_height="109dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/gladiator"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.325" />
+
+    <TextView
+        android:layout_width="215dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="180dp"
+        android:text="Gladiator’ (2000)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.28" />
+
+    <TextView
+        android:layout_width="261dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="156dp"
+        android:text="Inspired by Daniel P. Mannix's 1958 book, Those About to Die, Gladiator is a box office hit that dramatizes Roman general Maximus Decimus Meridius’ experiences. When the ambitious traitor Commodus murders Maximus’ father (and family) and claims the throne for himself, the protagonist is forced into slavery and becomes a gladiator who fights through the ranks to exact revenge."
+        android:textColor="@color/purple_700"
+        android:textSize="11dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.348" />
+
+    <ImageView
+        android:layout_width="142dp"
+        android:layout_height="125dp"
+        android:layout_marginStart="2dp"
+        android:src="@drawable/seven"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <TextView
+        android:layout_width="217dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="186dp"
+        android:text="‘Seven Samurai’ (1954)"
+        android:textColor="@color/purple_700"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.466" />
+
+    <TextView
+        android:layout_width="274dp"
+        android:layout_height="138dp"
+        android:layout_marginStart="142dp"
+        android:text="An essential samurai film for beginners, director Akira Kurosawa’s Seven Samurai is centered on a group of rōnin who are hired by the inhabitants of a poor village to protect them from bandits. Starting with an older samurai, the seven fighters must find a way to work together to prevent the thieves from stealing the civilians’ crops."
+        android:textColor="@color/purple_700"
+        android:textSize="12dp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.598" />
+    <Button
+        android:id="@+id/back_btn"
+        android:layout_width="137dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="136dp"
+        android:backgroundTint="@color/purple_500"
+        android:text="GO BACK"
+        android:textColor="@color/white"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.78" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
